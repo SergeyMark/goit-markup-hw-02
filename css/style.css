@@ -186,6 +186,13 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     
+    color: var(--heading-color);
+
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
     color: var(--white-color);
     background-color: var(--premary-color);
 }
