@@ -27,6 +27,17 @@ ul{
     list-style: none;
 }
 
+/* HOVER AND FOCUS EFFECT */
+
+.footer-adress:hover,
+.footer-adress:focus,
+.link-adress:hover,
+.link-adress:focus,
+.link:hover,
+.link:focus {
+    color: var(--premary-color);
+}
+
 /*------------ INDEX.HTML------------- */
 
 /* LOGO */
@@ -58,13 +69,6 @@ ul{
 }
 
 .link.active{
-    color: var(--premary-color);
-}
-
-.link-adress:hover, 
-.link-adress:focus,
-.link:hover,
-.link:focus{
     color: var(--premary-color);
 }
 
