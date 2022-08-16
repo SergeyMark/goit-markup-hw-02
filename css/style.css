@@ -7,6 +7,7 @@
     --second-bg-color: #2F303A;
     --team-bg-color: #F5F4FA;
     --white-color: #ffffff;
+    --logo-color: #000000;
 }
 
 body{
@@ -19,7 +20,7 @@ body{
     color: var(--text-color);
 }
 
-a{
+.decor-none{
     text-decoration: none;
 }
 
@@ -49,7 +50,7 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.03em;
 
-    color: #000000;
+    color: var(--logo-color);
 }
 
 .logo .logo-phrase{
@@ -61,7 +62,6 @@ ul{
 .link {
     font-weight: 500;
     color: var(--heading-color);
-    text-decoration: none;
 }
 
 .link-adress{
@@ -75,7 +75,7 @@ ul{
 /* MAIN */
 
 .main {
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
 }
 
 /* HERO */
