@@ -168,6 +168,10 @@ ul{
     background-color: var(--second-bg-color);
 }
 
+.footer .logo{
+    color: var(--white-color);
+}
+
 .footer-adress{
     line-height: 1.71;
         
